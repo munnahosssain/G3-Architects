@@ -1,3 +1,170 @@
-body{
-    
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    margin: 0 240px;
+}
+
+.button {
+    width: 180px;
+    height: 64px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background: #FF900E;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+.top-header {
+    text-align: center;
+}
+
+.top-header h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.top-header p {
+    color: #727272;
+    /* padding: 0 300px; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* -------------------------------------------
+                  ** feature **
+ ------------------------------------------- */
+
+.feature {
+    margin: 100px 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-text h1 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+/* -------------------------------------------
+                ** Feature Details **
+ ------------------------------------------- */
+
+.feature-details {
+    display: flex;
+}
+
+.feature-details h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    border-left: 5px solid #FF900E;
+}
+
+.feature-details p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.feature-box {
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 30px 0 0;
+    box-shadow: 0px 4px 30px #0000000f;
+}
+
+.feature-box h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #131313;
+    line-height: 23px;
+}
+
+.feature-box p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #727272;
+}
+
+/* -------------------------------------------
+                ** Experience **
+ ------------------------------------------- */
+
+.experience {
+    margin: 20vh 240px;
+}
+
+.experience h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: -10px;
+}
+
+.experience p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.experience-cart {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sponsors {
+    text-align: center;
+    margin: 20vh 240px;
+}
+
+.sponsors h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.sponsors p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+.sponsors-logo {
+    display: flex;
+    color: #727272;
+    text-align: center;
+    justify-content: space-around;
+}
+
+/* footer */
+
+.footer-wrap {
+    width: 1440px;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    border-radius: 8px;
+    align-items: center;
+    background: #FFF4E7;
+    justify-content: center;
+}
+
+.footer-wrap small {
+    text-align: center;
+    background: #FFF4E7;
 }
