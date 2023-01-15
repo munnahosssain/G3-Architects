@@ -264,7 +264,7 @@ section {
 @media (max-width:425px) {
     .feature {
         display: flex;
-        margin: 80vh 2.08vw;
+        margin: 10vh 2.08vw;
     }
 
     .feature-img {
@@ -434,6 +434,13 @@ section {
     line-height: 23px;
 }
 
+.experience-cart:hover {
+    color: white;
+    background-color: red;
+    transform: rotate(-45deg);
+    transition: transform .5s ease-in;
+}
+
 @media (max-width:425px) {
     .experience-carts {
         margin-top: 50px;
@@ -444,6 +451,30 @@ section {
         padding: 35px 50px;
         border-radius: 8px;
         border: 1px solid #FF900E;
+    }
+
+
+}
+
+/* -------------------------------------------
+                ** Goto shop **
+              ** For bonus part **
+ ------------------------------------------- */
+
+.go-shop {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.go-shop h1 {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+@media (max-width:425px) {
+    .go-shop {
+        display: block;
     }
 }
 
@@ -479,7 +510,7 @@ section {
 
 @media (max-width:425px) {
     .experience {
-        margin: 120vh 40px;
+        margin: 10vh 10px;
     }
 
     .sponsors-logos {
@@ -512,4 +543,10 @@ section {
     text-align: center;
     /* background: #FFF4E7; */
     color: #424242
+}
+
+@media (max-width:425px) {
+    .footer-wrap {
+        margin: 0 10px 30px 10px;
+    }
 }
